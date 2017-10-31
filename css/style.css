@@ -288,15 +288,16 @@ h6 {
 }
 .btn-main {
   color: #fff;
-  /*background-color: #eaaa00;*/
+  background-color: #eaaa00;
   border-color: #fff;
 }
 .btn-main:hover,
 .btn-main:focus,
 .btn-main:active {
-  background-color: #eaaa00;
+  /*background-color: #eaaa00;*/
+  background-color: transparent;
   border-color: #eaaa00;
-  color: #fff;
+  color: #eaaa00;
 }
 .btn-link {
   font-weight: 400;
@@ -486,12 +487,16 @@ h6 {
   margin-bottom: 15px;
   margin-top: 5px;
   padding: 20px 10px;
+
+  background: rgba(0,0,0,.5);
+  border-radius: 20px;
 }
 .home .hero-txt .hero-work {
   font-family: "Oswald";
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 2px;
   margin-bottom: 0;
+  padding-bottom: 20px;
 }
 .home .hero-txt .hero-work:after {
   content: "";
