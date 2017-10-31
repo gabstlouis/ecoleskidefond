@@ -688,6 +688,7 @@ h6 {
   font-weight: 400;
   letter-spacing: 3px;
   margin-bottom: 20px;
+  margin-top:-50px;
 }
 .st-member .st-member-info .st-member-name:after {
   content: '';
@@ -811,7 +812,7 @@ h6 {
           transform: scaleX(1);
 }
 .skill {
-  text-align: left;
+  text-align: justify;
 }
 .skill strong {
   font-weight: 400;
