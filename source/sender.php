@@ -7,8 +7,8 @@
  **************************************
  */
 
-$to = 'YOUR_EMAIL_ADDRESS';
-$siteName = "YOUR_SITE_NAME";
+$to = 'gab.stlouis@gmail.com';
+$siteName = "École de ski de fond Le Coureur";
 
 /*
  *************************************************************

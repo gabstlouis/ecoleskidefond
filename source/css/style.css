@@ -346,7 +346,8 @@ h6 {
   display: block;
   width: 150px;
   height: 51px;
-  background-image: url(../images/title-top.png);
+  /*background-image: url(../images/title-top.png);*/
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
 }
 .bottom-line {
