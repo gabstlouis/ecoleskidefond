@@ -29,6 +29,30 @@
 
 		<link href="css/style.css" rel="stylesheet">
 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" />
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script src="js/jquery.stellar.js"></script>
+		<script src="js/jquery.appear.js"></script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+		<script src="js/jquery.countTo.js"></script>
+		<script src="js/jquery.shuffle.modernizr.js"></script>
+		<script src="js/jquery.shuffle.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/jquery.ajaxchimp.min.js"></script>
+		<script src="js/script.js"></script>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/locale/fr-ca.js"></script>
+		<!-- https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js -->
+		<!-- <script type="text/javascript" src="/scripts/bootstrap.min.js"></script> -->
+		<!-- https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/locale/fr-ca.js -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -77,7 +101,7 @@
 					<div class="hero-txt">
 						<p class="hero-work">Classique - Pas de patin</p>
 						<a><img src="photos/ecoledeskidefondlecoureur.png" style="height: 350px;background: rgba(0, 0, 0, 0.3);border-radius: 20px;"></a>
-<!-- 						<h2 class="hero-title">École de ski de fond</h2>
+<!--                        <h2 class="hero-title">École de ski de fond</h2>
 						<p class="hero-sub-title">We Provide Hight Quality Bootstrap Template</p>
 						<a href="#" class="btn btn-main btn-lg">Find Out More</a> -->
 					</div>
@@ -103,7 +127,7 @@
 					<div class="col-sm-12" style="text-align: center;">
 						<p>L’École de ski de fond Le Coureur est le rassemblement de plusieurs moniteurs certifiés de la région de l’Estrie en partenariat avec la boutique Le Coureur de Sherbrooke. Elle a été créée en janvier 2011 de l’initiative de Carmen Archambault, monitrice depuis de nombreuses années et très impliquée dans le milieu du ski de fond au Canada.</br>L’École de ski de fond Le Coureur a pour mission de développer le ski de fond en Estrie en partageant ses connaissances techniques et sa passion du ski classique et pas de patin au plus grand nombre en offrant des formations individuelles ou en groupe.</br>Offrez une leçon de ski de fond pour Noel ou un anniversaire: vous trouverez des certificats cadeaux de l’École à la Boutique Le Coureur.</p>
 					</div>
-	<!-- 				<div class="col-md-6">
+	<!--                <div class="col-md-6">
 						<img src="photos/about.jpg" alt="" class="img-responsive">
 					</div> -->
 				</div>
@@ -155,7 +179,7 @@
 								</div>
 							</div>
 						</div>
-					</div>	
+					</div>  
 				</div>
 
 				<div class="row mb90">
@@ -190,7 +214,7 @@
 						</div>
 					</div>
 
-<!-- 					<div class="col-md-4">
+<!--                    <div class="col-md-4">
 						<div class="st-member">
 							<div class="st-member-img">
 								<img src="photos/moniteur/annie.jpg" alt="" class="img-responsive">
@@ -204,7 +228,7 @@
 								</div>
 							</div>
 						</div>
-					</div>	
+					</div>  
 				</div> -->
 
 			</div>
@@ -331,13 +355,31 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-title st-center">
-					<h3>Nos forfaits de groupe</h3>
+					<h3>Nos forfaits</h3>
 					<!-- <p>Choisisez parmis nos forfaits de Groupe</p> -->
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-3">
+				<div class="pricing-table">
+					<div class="pricing-header">
+						<div class="pt-price">Privé</div>
+						<div class="pt-name">40$<small>/personne</small></div>
+					</div>
+					<div class="pricing-body">
+						<ul>
+							<li><i class="fa fa-check"></i> 1 personne</li>
+							<!-- <li><i class="fa fa-check"></i> 1h15</li> -->
+						</ul>
+					</div>
+					<div class="pricing-footer">
+						<div class="pt-name"><i class="fa fa-clock-o"></i>1h</div>
+						<a href="#reserver" class="btn btn-main">Réservez</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
 				<div class="pricing-table">
 					<div class="pricing-header">
 						<div class="pt-price">Semi-Privé</div>
@@ -355,7 +397,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<div class="pricing-table">
 					<div class="pricing-header">
 						<div class="pt-price">Petit groupe</div>
@@ -373,7 +415,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<div class="pricing-table">
 					<div class="pricing-header">
 						<div class="pt-price">Groupe</div>
@@ -396,64 +438,38 @@
 	<div class="container" style="padding-top: 50px;">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="section-title st-center">
-					<h3>Nos forfaits privé</h3>
-					<!-- <p>Choisisez parmis nos forfaits privé</p> -->
+				<div class="st-center">
+					<!-- <h3>Nos forfaits privé</h3> -->
+					<!-- <h4>* Option spécialisation</h4> -->
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-12">
 				<div class="pricing-table">
 					<div class="pricing-header">
-						<div class="pt-price">De base</div>
-						<div class="pt-name">40$<small>/personne</small></div>
+						<div class="pt-price">* Option de spécialisation</div>
+						<div class="pt-name">Raffinez plus vos techniques<br><small>Choissiez parmis les services suivants:</small></div>
 					</div>
 					<div class="pricing-body">
 						<ul>
 							<!-- <li><i class="fa fa-check"></i> 1 personne</li> -->
-							<li><i class="fa fa-check"></i> Technique classique</li>
-							<li><i class="fa fa-check"></i> Technique pas de patin</li>
-							<li><i class="fa fa-check"></i> Mise au point début de saison</li>
-							<li><i class="fa fa-check"></i> Découvertes du parc du Mont-Orford</li>
-							<li><i class="fa fa-check"></i> Technique de montées, descentes, virages</li>
+							<li><i class="fa fa-check"></i> Leçons données par Carmen Archambault</li>
+							<!-- <li><i class="fa fa-check"></i> Technique pas de patin</li> -->
+							<!-- <li><i class="fa fa-check"></i> Mise au point début de saison</li> -->
+							<!-- <li><i class="fa fa-check"></i> Découvertes du parc du Mont-Orford</li> -->
+							<!-- <li><i class="fa fa-check"></i> Technique de montées, descentes, virages</li> -->
 							<li><i class="fa fa-check"></i> Cours de fartage</li>
-							<li><i class="fa fa-times"></i> Préparation à la compétition</li>
-							<li><i class="fa fa-times"></i> Analyse Vidéo</li>
-							<li><i class="fa fa-times"></i> Plan d’entrainements</li>
+							<li><i class="fa fa-check"></i> Préparation à la compétition</li>
+							<li><i class="fa fa-check"></i> Analyse Vidéo</li>
+							<li><i class="fa fa-check"></i> Plan d’entrainements</li>
 							 
 							<!-- <li><i class="pt-name"></i> 1h00</li> -->
 						</ul>
 					</div>
 					<div class="pricing-footer">
-						<div class="pt-name"><i class="fa fa-clock-o"></i>1h</div>
-						<a href="#reserver" class="btn btn-main">Réservez</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="pricing-table">
-					<div class="pricing-header">
-						<div class="pt-price">Avancé</div>
-						<div class="pt-name">50$<small>/personne</small></div>
-					</div>
-					<div class="pricing-body">
-						<ul>
-							<!-- <li><i class="fa fa-check"></i> 1 personne</li> -->
-							<li><i class="fa fa-check"></i> Technique classique</li>
-							<li><i class="fa fa-check"></i> Technique pas de patin</li>
-							<li><i class="fa fa-check"></i> Mise au point début de saison</li>
-							<li><i class="fa fa-check"></i> Découvertes du parc du Mont-Orford</li>
-							<li><i class="fa fa-check"></i> Technique de montées, descentes, virages</li>
-							<li><i class="fa fa-check"></i> Cours de fartage</li>
-							<li><i class="fa fa-check"></i> Préparation à la compétition</li>
-							<li><i class="fa fa-check"></i> Analyse Vidéo</li>
-							<li><i class="fa fa-check"></i> Plan d’entrainements</li>
-							<!-- <li><i class="pt-name"></i> 1h00</li> -->
-						</ul>
-					</div>
-					<div class="pricing-footer">
-						<div class="pt-name"><i class="fa fa-clock-o"></i>1h</div>
+						<div class="pt-name">50$<small>/heure</small></div>
+						<div class="pt-name"><i class="fa fa-clock-o"></i> Duré sur mesure</div>
 						<a href="#reserver" class="btn btn-main">Réservez</a>
 					</div>
 				</div>
@@ -537,7 +553,8 @@
 				<form class="contact-form" role="form">
 					<div class="form-group">
 						<label for="sel1">Choix de cours:</label>
-						<select class="form-control" id="sel1">
+						<select class="form-control" style="height: 46px !important;" id="sel1">
+							<option value="">Choisisez parmis les options suivantes...</option>
 							<option>Privé(De base)</option>
 							<option>Privé(Avancé)</option>
 							<option>Semi-Privé</option>
@@ -547,7 +564,8 @@
 					</div>
 					<div class="form-group">
 						<label for="sel1">Niveau:</label>
-						<select class="form-control" id="sel1">
+						<select class="form-control" style="height: 46px !important;" id="sel1">
+							<option value="">Choisisez parmis les options suivantes...</option>
 							<option>Débutant</option>
 							<option>Intermidiaire</option>
 							<option>Avancé</option>
@@ -555,23 +573,42 @@
 					</div>
 					<div class="form-group">
 						<label for="sel1">Type de ski:</label>
-						<select class="form-control" id="sel1">
+						<select class="form-control" style="height: 46px !important;" id="sel1">
+							<option value="">Choisisez parmis les options suivantes...</option>
 							<option>Classic</option>
 							<option>Pas de patin</option>
 						</select>
 					</div>
 					<div class="form-group">
 						<label for="sel1">Préférence de disponibilité:</label>
-						<select class="form-control" id="sel1">
+						<select class="form-control" style="height: 46px !important;" id="sel1">
+							<option value="">Choisisez parmis les options suivantes...</option>
 							<option>AM</option>
 							<option>PM</option>
 						</select>
 					</div>
+					<!-- <div class='col-sm-6'> -->
+						<div class="form-group">
+							<div class='input-group date' id='datetimepicker1'>
+								<input type='text' class="form-control" placeholder="Sélectionnez une date" />
+								<span class="input-group-addon">
+									<span class="glyphicon glyphicon-calendar"></span>
+								</span>
+							</div>
+						</div>
+					<!-- </div> -->
+					<script type="text/javascript">
+						$(function () {
+							$('#datetimepicker1').datetimepicker({
+								format: 'DD/MM/YYYY'
+							});
+						});
+					</script>
 					<input type="text" class="form-control" id="fname" name="fname" placeholder="Votre nom complet">
-					<input type="dropdown" class="form-control" id="type" name="cours" placeholder="Type de cours">
+					<!-- <input type="dropdown" class="form-control" id="type" name="cours" placeholder="Type de cours"> -->
 					<input type="email" class="form-control" id="email" name="email" placeholder="Votre E-mail">
 					<input type="phone" class="form-control" id="subj" name="subj" placeholder="Numéro de téléphone">
-					<textarea id="mssg" name="mssg" placeholder="Your Message" class="form-control" rows="10"></textarea>
+					<textarea id="mssg" name="mssg" placeholder="Message" class="form-control" rows="10"></textarea>
 					<button class="btn btn-main btn-lg" type="submit" id="send" data-loading-text="<i class='fa fa-spinner fa-spin'></i> En cours..."><i class="fa fa-paper-plane "></i> Envoyez</button>
 				</form>
 				<div id="result-message" role="alert"></div>
@@ -957,21 +994,6 @@
 		</div>
 	</div>
 </footer> 
-
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.easing.min.js"></script>
-		<script src="js/jquery.stellar.js"></script>
-		<script src="js/jquery.appear.js"></script>
-		<script src="js/jquery.nicescroll.min.js"></script>
-		<script src="js/jquery.countTo.js"></script>
-		<script src="js/jquery.shuffle.modernizr.js"></script>
-		<script src="js/jquery.shuffle.js"></script>
-		<script src="js/owl.carousel.js"></script>
-		<script src="js/jquery.ajaxchimp.min.js"></script>
-		<script src="js/script.js"></script>
 
 	</body>
 </html>
