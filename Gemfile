@@ -10,3 +10,5 @@ gem 'middleman-gh-pages'
 gem "middleman-favicon-maker", "~> 4.1"
 
 gem "middleman-meta-tags"
+
+gem "middleman-imageoptim", :git => "https://github.com/plasticine/middleman-imageoptim", :branch => "master"
