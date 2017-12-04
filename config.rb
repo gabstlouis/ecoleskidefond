@@ -16,6 +16,9 @@ page '/*.txt', layout: false
 # Meta tags
 activate :meta_tags
 
+# Image optim
+activate :imageoptim
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -44,8 +47,8 @@ activate :meta_tags
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
 configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
+  activate :minify_css
+  activate :minify_javascript
 
 	#favicon maker
 	activate :favicon_maker, :icons => {
