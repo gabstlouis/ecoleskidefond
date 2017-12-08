@@ -450,7 +450,7 @@
 					</div>
 					<div class="form-group" required="true">
 						<div class='input-group date' id='date'>
-							<input name=date" type='text' class="form-control" placeholder="Sélectionnez une date" />
+							<input required="true" name=date" type='text' class="form-control" placeholder="Sélectionnez une date" />
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 							</span>
@@ -463,9 +463,9 @@
 							});
 						});
 					</script>
-					<input type="text" class="form-control" id="fname" name="nom" placeholder="Votre nom complet">
-					<input type="email" class="form-control" id="email" name="email" placeholder="Votre E-mail">
-					<input type="phone" class="form-control" id="phone" name="phone" placeholder="Numéro de téléphone">
+					<input type="text" class="form-control" id="fname" name="nom" placeholder="Votre nom complet" required="true">
+					<input type="email" class="form-control" id="email" name="email" placeholder="Votre E-mail" required="true">
+					<input type="phone" class="form-control" id="phone" name="phone" placeholder="Numéro de téléphone" required="true">
 					<textarea id="mssg" name="mssg" placeholder="Message" class="form-control" rows="10"></textarea>
 					<button class="btn btn-main btn-lg" type="submit" id="send" data-loading-text="<i class='fa fa-spinner fa-spin'></i> En cours..."><i class="fa fa-paper-plane "></i> Envoyez</button>
 				</form>
