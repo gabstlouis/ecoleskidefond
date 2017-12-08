@@ -386,7 +386,7 @@
 							<a href="https://www.facebook.com/Ecole-ski-de-fond-Le-Coureur-182107415162755/" target="_blank" class="social facebook"><i class="fa fa-facebook"></i> Suivez nous</a>
 						</li>
 						<li>
-							<a href="mailto:ecolelecoureur@gmail.com" class="social rss"><i class="fa fa-envelope"></i>Courriel</a>
+							<a href="mailto:ecoleskidefond@lecoureur.com" class="social rss"><i class="fa fa-envelope"></i>Courriel</a>
 						</li>
 						<li>
 							<a href="tel:1(819)446-0901" class="social twitter"><i class="fa fa-phone"></i>1(819)446-0901</a>
@@ -411,11 +411,10 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<form class="contact-form" action="https://formspree.io/gab.stlouis@gmail.com"
-      method="POST" role="form">
+      			<form action="https://getsimpleform.com/messages?form_api_token=60e70f6073a45858709e0c9a4bcc78ab" method="post">
 					<div class="form-group">
-						<label for="sel1">Choix de cours:</label>
-						<select class="form-control" style="height: 46px !important;" id="sel1">
+						<label for="cours">Choix de cours:</label>
+						<select name="cours" id="cours" class="form-control" style="height: 46px !important;" required="true">
 							<option value="">Choisisez parmis les options suivantes...</option>
 							<option>Privé</option>
 							<option>Semi-Privé</option>
@@ -425,8 +424,8 @@
 						</select>
 					</div>
 					<div class="form-group">
-						<label for="sel1">Niveau:</label>
-						<select class="form-control" style="height: 46px !important;" id="sel1">
+						<label for="niveau">Niveau:</label>
+						<select name="niveau" id="niveau" class="form-control" style="height: 46px !important;" required="true">
 							<option value="">Choisisez parmis les options suivantes...</option>
 							<option>Débutant</option>
 							<option>Intermidiaire</option>
@@ -434,24 +433,24 @@
 						</select>
 					</div>
 					<div class="form-group">
-						<label for="sel1">Type de ski:</label>
-						<select class="form-control" style="height: 46px !important;" id="sel1">
+						<label for="type">Type de ski:</label>
+						<select name="type" id="type" class="form-control" style="height: 46px !important;" required="true">
 							<option value="">Choisisez parmis les options suivantes...</option>
 							<option>Classique</option>
 							<option>Pas de patin</option>
 						</select>
 					</div>
 					<div class="form-group">
-						<label for="sel1">Préférence de disponibilité:</label>
-						<select class="form-control" style="height: 46px !important;" id="sel1">
+						<label for="dispo">Préférence de disponibilité:</label>
+						<select name="dispo" id="dispo" class="form-control" style="height: 46px !important;" id="dispo" required="true">
 							<option value="">Choisisez parmis les options suivantes...</option>
 							<option>AM</option>
 							<option>PM</option>
 						</select>
 					</div>
-					<div class="form-group">
-						<div class='input-group date' id='datetimepicker1'>
-							<input type='text' class="form-control" placeholder="Sélectionnez une date" />
+					<div class="form-group" required="true">
+						<div class='input-group date' id='date'>
+							<input name=date" type='text' class="form-control" placeholder="Sélectionnez une date" />
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 							</span>
@@ -459,14 +458,14 @@
 					</div>
 					<script type="text/javascript">
 						$(function () {
-							$('#datetimepicker1').datetimepicker({
+							$('#date').datetimepicker({
 								format: 'DD/MM/YYYY'
 							});
 						});
 					</script>
-					<input type="text" class="form-control" id="fname" name="fname" placeholder="Votre nom complet">
+					<input type="text" class="form-control" id="fname" name="nom" placeholder="Votre nom complet">
 					<input type="email" class="form-control" id="email" name="email" placeholder="Votre E-mail">
-					<input type="phone" class="form-control" id="subj" name="subj" placeholder="Numéro de téléphone">
+					<input type="phone" class="form-control" id="phone" name="phone" placeholder="Numéro de téléphone">
 					<textarea id="mssg" name="mssg" placeholder="Message" class="form-control" rows="10"></textarea>
 					<button class="btn btn-main btn-lg" type="submit" id="send" data-loading-text="<i class='fa fa-spinner fa-spin'></i> En cours..."><i class="fa fa-paper-plane "></i> Envoyez</button>
 				</form>

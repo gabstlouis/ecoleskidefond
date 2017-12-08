@@ -149,16 +149,30 @@ $(function () {
       var $this = $(this),
           result = true;
 
-      if(!checkEmpty($this.find('#fname'))){
+      if(!checkEmpty($this.find('#nom'))){
         result=false;
       }
       if(!validateEmail($this.find('#email'))) {
         result=false;
       }
-      if(!checkEmpty($this.find('#mssg'))) {
+      if(!checkEmpty($this.find('#cours'))) {
         result=false;
       }
-      
+      if(!checkEmpty($this.find('#type'))) {
+        result=false;
+      }
+      if(!checkEmpty($this.find('#niveau'))) {
+        result=false;
+      }
+      if(!checkEmpty($this.find('#date'))) {
+        result=false;
+      }
+      if(!checkEmpty($this.find('#dispo'))) {
+        result=false;
+      }
+      if(!checkEmpty($this.find('#phone'))) {
+        result=false;
+      }
       if(result==false) {
         return false;
       }
@@ -167,30 +181,30 @@ $(function () {
 
       var data = $this.serialize();
 
-      $.ajax({
-          url: "sender.php", 
-          type: "POST",        
-          data: data,     
-          cache: false,
-          success: function (html) {
-          	console.log(html);
-              if (html==1) {
-                  $('#result-message').addClass('alert alert-success').html('<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Success!</strong> Message Send. We will contact with you soon.').delay(500).slideDown(500).delay(10000).slideUp('slow');
+      // $.ajax({
+      //     url: "sender.php", 
+      //     type: "POST",        
+      //     data: data,     
+      //     cache: false,
+      //     success: function (html) {
+      //     	console.log(html);
+      //         if (html==1) {
+      //             $('#result-message').addClass('alert alert-success').html('<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Success!</strong> Message Send. We will contact with you soon.').delay(500).slideDown(500).delay(10000).slideUp('slow');
 
-                  $btn.button('reset');
+      //             $btn.button('reset');
                   
-              } else {
-                  $('#result-message').addClass('alert alert-danger').html('<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Error!</strong> Message Sending Error! Please try again').delay(500).slideDown(500).delay(10000).slideUp('slow');
-                  $btn.button('reset');
-              }
-          },
-          error: function (a, b) {
-            if (b == 'error') {
-              $('#result-message').addClass('alert alert-danger').html('<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Error!</strong> Message Sending Error! Please try again').delay(500).slideDown(500).delay(10000).slideUp('slow');
-            };
-            $btn.button('reset');
-          }
-      });
+      //         } else {
+      //             $('#result-message').addClass('alert alert-danger').html('<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Error!</strong> Message Sending Error! Please try again').delay(500).slideDown(500).delay(10000).slideUp('slow');
+      //             $btn.button('reset');
+      //         }
+      //     },
+      //     error: function (a, b) {
+      //       if (b == 'error') {
+      //         $('#result-message').addClass('alert alert-danger').html('<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Error!</strong> Message Sending Error! Please try again').delay(500).slideDown(500).delay(10000).slideUp('slow');
+      //       };
+      //       $btn.button('reset');
+      //     }
+      // });
 
       return false;
     });
