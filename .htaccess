@@ -1,0 +1,17 @@
+AddDefaultCharset utf-8
+
+Redirect 301 /clubdecourselecoureur.html http://lecoureur.com/
+Redirect 301 /contact.html http://lecoureur.com/
+Redirect 301 /service.html http://lecoureur.com/
+Redirect 301 /clublecoureur.html http://lecoureur.com/
+Redirect 301 /autresport.html http://lecoureur.com/
+Redirect 301 /clubcourirpoursedecouvrir.html http://lecoureur.com/
+Redirect 301 /marques.html http://lecoureur.com/
+Redirect 301 /images/le_coureur_couleur_background_logo.pdf http://lecoureur.com/
+Redirect 301 /clubdetrail.html http://lecoureur.com/
+Redirect 301 /telechargements.html http://lecoureur.com/
+Redirect 301 /atelier.html http://lecoureur.com/
+Redirect 301 /pleinair.html http://lecoureur.com/plein-air.html
+Redirect 301 /rugby.html http://lecoureur.com/rudby.html
+Redirect 301 /equipes_sportives.html http://lecoureur.com/commande.html
+Redirect 301 /skidefond.html http://lecoureur.com/ski-de-fond.html
