@@ -1,29 +1,31 @@
 ---
-build/images/c2a.png: 2017-12-11 19:19:51.795896851 -08:00
-build/images/title-top.png: 2017-12-11 19:19:51.818922261 -08:00
-build/images/title-top@2x.png: 2017-12-11 19:19:51.819202205 -08:00
-build/images/logo.png: 2017-12-11 19:19:51.817304814 -08:00
-build/images/testimonials.png: 2017-12-11 19:19:51.818483698 -08:00
-build/images/subscribe2.png: 2017-12-11 19:19:51.818148565 -08:00
-build/images/hero-img9.jpg: 2017-12-11 19:19:51.817053561 -08:00
-build/images/funfact4.png: 2017-12-11 19:19:51.815175464 -08:00
-build/images/testimonials2.png: 2017-12-11 19:19:51.818744678 -08:00
-build/images/diapo1.jpg: 2017-12-11 19:19:51.812152187 -08:00
-build/images/diapo2.jpg: 2017-12-11 19:19:51.814643101 -08:00
-build/apple-touch-icon-114x114-precomposed.png: 2018-04-17 10:18:16.811674346 -07:00
-build/apple-touch-icon-152x152-precomposed.png: 2018-04-17 10:18:16.804231782 -07:00
-build/favicon.png: 2018-04-17 10:18:16.810208184 -07:00
-build/apple-touch-icon-72x72-precomposed.png: 2018-04-17 10:18:16.958463936 -07:00
-build/photos/Logo_Parc_national_du_Mont-Orford.png: 2017-12-11 19:19:51.827386702
-  -08:00
-build/photos/ski_de_fond_diapo_2.jpg: 2017-12-11 19:19:51.839443159 -08:00
-build/photos/ecoledeskidefondlecoureur.png: 2017-12-11 19:19:51.827825412 -08:00
-build/photos/moniteur/annie.jpg: 2017-12-11 19:19:51.828588539 -08:00
-build/photos/moniteur/isa.jpg: 2017-12-11 19:19:51.830343243 -08:00
-build/photos/moniteur/jf.png: 2017-12-11 19:19:51.831554561 -08:00
-build/photos/moniteur/michel.jpg: 2017-12-11 19:19:51.832208765 -08:00
-build/photos/moniteur/carmen.jpg: 2017-12-11 19:19:51.829095247 -08:00
-build/photos/moniteur/clemence.jpg: 2017-12-11 19:19:51.829688963 -08:00
-build/photos/Ski-de-Fond-Orford_logos.png: 2017-12-11 19:19:51.827598975 -08:00
-build/photos/le_coureur_logo_WHITE.png: 2017-12-11 19:19:51.828203947 -08:00
-build/photos/le_coureur_logo.png: 2017-12-11 19:19:51.828011416 -08:00
+build/images/c2a.png: 2021-01-08 21:48:23.043750373 -07:00
+build/images/title-top.png: 2021-01-08 21:48:23.095369772 -07:00
+build/images/title-top@2x.png: 2021-01-08 21:48:23.095939619 -07:00
+build/images/logo.png: 2021-01-08 21:48:23.089698809 -07:00
+build/images/testimonials.png: 2021-01-08 21:48:23.094109270 -07:00
+build/images/subscribe2.png: 2021-01-08 21:48:23.093392491 -07:00
+build/images/hero-img9.jpg: 2021-01-08 21:48:23.088673800 -07:00
+build/images/funfact4.png: 2021-01-08 21:48:23.082920558 -07:00
+build/images/testimonials2.png: 2021-01-08 21:48:23.094665238 -07:00
+build/images/diapo1.jpg: 2021-01-08 21:48:23.078471651 -07:00
+build/images/diapo2.jpg: 2021-01-08 21:48:23.081582205 -07:00
+build/apple-touch-icon-114x114-precomposed.png: 2021-01-08 21:54:32.340745396 -07:00
+build/apple-touch-icon-152x152-precomposed.png: 2021-01-08 21:54:32.345752407 -07:00
+build/favicon.png: 2021-01-08 21:54:32.342718594 -07:00
+build/apple-touch-icon-72x72-precomposed.png: 2021-01-08 21:54:32.419625318 -07:00
+build/photos/Logo_Parc_national_du_Mont-Orford.jpg: 2018-12-11 22:40:15.883464925
+  -07:00
+build/photos/Logo_Parc_national_du_Mont-Orford.png: 2021-01-08 21:48:23.112262331
+  -07:00
+build/photos/ski_de_fond_diapo_2.jpg: 2021-01-08 21:48:23.135792902 -07:00
+build/photos/ecoledeskidefondlecoureur.png: 2021-01-08 21:48:23.113685151 -07:00
+build/photos/moniteur/annie.jpg: 2021-01-08 21:48:23.115232730 -07:00
+build/photos/moniteur/isa.jpg: 2021-01-08 21:48:23.123960460 -07:00
+build/photos/moniteur/jf.png: 2021-01-08 21:48:23.127299592 -07:00
+build/photos/moniteur/michel.jpg: 2021-01-08 21:48:23.129466794 -07:00
+build/photos/moniteur/carmen.jpg: 2021-01-08 21:48:23.119261124 -07:00
+build/photos/moniteur/clemence.jpg: 2021-01-08 21:48:23.121703231 -07:00
+build/photos/Ski-de-Fond-Orford_logos.png: 2021-01-08 21:48:23.112891248 -07:00
+build/photos/le_coureur_logo_WHITE.png: 2021-01-08 21:48:23.114734912 -07:00
+build/photos/le_coureur_logo.png: 2021-01-08 21:48:23.114154887 -07:00
